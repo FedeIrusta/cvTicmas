@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="funcionalidades.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    
+
+    <title>Curriculum Vitae</title>
+</head>
+<body>
+    <div>
+        <nav class="navbar bg-primary  navbar-expand-lg" data-bs-theme="dark" id="navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">CV</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">                             
+                  <li class="nav-item">
+                    <a class="nav-link href="footer">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="container" id="primeraParte">
+        <div class="row">
+            <div class="col-2 bg-primary">
+                <img src="imagenes/22.jpg" alt="Pedro Reyes">
+
+                <hr>
+                <h6 class="card-title text-white">Email</h6>
+                <p class="card-text text-white">pedro.reyes@example.com</p>
+
+                <h6 class="card-title text-white">Dirección</h6>
+                <p class="card-text text-white">2500 Westheimer Rd</p>
+
+                <hr>
+                <h6 class="card-title text-white">Teléfono:</h6>
+                <p class="card-text text-white">(913) 497-9796</p>
+
+                <hr>
+                <h6 class="card-title text-white">Celular:</h6>
+                <p class="card-text text-white">(913) 497-9796</p>
+
+                <hr>
+                <h6 class="card-title text-white">Idiomas:</h6>
+                <p class="card-text text-white">Inglés avanzado</p>
+                <p class="card-text text-white">Español nativo</p>
+                <br>
+
+            </div>
+            <div class="col-10" id="informacion">
+              <h3>Pedro Fabián</h3>
+              <h3>Reyes</h3>
+
+              <hr>
+
+              <div class="card border-light mb-3" id="titulos">
+                <div class="card-header bg-primary text-white">Formación Académica</div>
+                <div class="card-body">
+                  <h5 class="card-title">Universidad: </h5>
+                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisi</p>
+
+                  <h5 class="card-title">Secundaria: </h5>
+                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisi</p>
+
+                </div>
+
+                <div class="card border-light mb-3" id="titulos">
+                  <div class="card-header bg-primary text-white">Experiencias laborales</div>
+                  <div class="card-body">
+                    <h5 class="card-title">Empresa BLA BLA 2009-2015 </h5>
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisi</p>
+  
+                    <h5 class="card-title">Segunda Empresa 2016-2022</h5>
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisi</p>
+  
+                  </div>
+
+                  <div class="card border-light mb-3" id="skills" >
+                    <div class="card-header bg-primary text-white">Herramientas</div>
+                    <div class="card-body">
+                      
+                      
+                        <ul class="list-group list-group-horizontal">
+                          <li class="list-group-item">Angular</li>
+                          <li class="list-group-item">HTML</li>
+                          <li class="list-group-item">CSS</li>
+                          <li class="list-group-item">JavaScript</li>
+                          <li class="list-group-item">SQL</li>
+                          <li class="list-group-item">MongoDB</li>
+                          <li class="list-group-item">Oracle</li>
+                          <li class="list-group-item">Microsoft Office</li>
+                          <li class="list-group-item">Drive</li>
+                          <li class="list-group-item">GitHub</li>
+                          <li class="list-group-item">Git</li>
+                          
+                        </ul>
+                      
+                      
+
+                      
+                    </div>
+                    
+              </div>
+              <button type="button" class="btn btn-primary" onclick="mostrar()" id="boton"> Mostrar Skills</button>
+              <button type="button" class="btn btn-primary" onclick="ocultar()" id="boton2"> Ocultar Skills</button>
+            </div>
+        </div>
+    </div>
+
+    
+    <footer class="container-fluid bg-primary text-white" id="footer"> 
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <h6 class="card-title"> Facebook:</h6>
+            <p class="card-text">@PedroReyes</p>
+          </div>
+          <div class="col-4">
+            <h6 class="card-title"> Instagram:</h6>
+            <p class="card-text">PedroReyes</p>
+          </div>
+          <div class="col-4">
+            <h6 class="card-title"> Twitter:</h6>
+            <p class="card-text">@PedroReyes</p>
+          </div>
+        </div>
+
+      </div>
+      <br>
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <h6 class="card-title"> Email:</h6>
+            <p class="card-text">pedro.reyes@example.com</p>
+          </div>
+          <div class="col-6">
+            <h6 class="card-title"> Teléfono:</h6>
+            <p class="card-text">(913) 497-9796</p>
+          </div>
+          
+        </div>
+        
+      </div>
+    </footer>
+
+    
+
+
+
+
+</body>
+
+</html>

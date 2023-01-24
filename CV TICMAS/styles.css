@@ -1,0 +1,36 @@
+hr{
+    
+    border-color: white;
+    width: 100%;
+}
+
+#informacion{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#titulos{
+    width: 100%;
+}
+
+#footer{
+    text-align: center;
+    text-decoration: dotted;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)) ,url(imagenes/Fondo.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+#navbar{
+    scroll-margin-top: 70px;
+    
+}
+
+#skills{
+    display: none;
+}
